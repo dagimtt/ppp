@@ -1,0 +1,90 @@
+body{
+    background-color: #344a72;
+    
+    font-family: 'Roboto',sans-serif;
+}
+.request-box{
+    width: 600px;
+    height: 580px;
+    background-color: white;
+    margin-left: 27%;
+    
+}
+.header{
+    text-align: center;
+    color: white;
+}
+.para{
+    text-align: center;
+    color: white;
+}
+
+.username{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none; 
+}
+
+.userid{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 80%;
+    border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+}
+.quantity{
+    margin-left: 240px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.date{
+    margin-left: 240px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.description{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none; 
+}
+
+.btn{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none; 
+    background-color: rgb(105, 94, 31);
+    color: white;
+    font-size: large;
+}
+.btn:hover{
+    background-color: rgb(4, 4, 248);
+    color: rgb(19, 114, 114);
+}
+#req1,#req2,#req3,#req4,#req5 {
+    color: rgb(240, 8, 39);
+}

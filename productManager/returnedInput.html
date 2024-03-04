@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/returninput.css">
+    <title>Return Input</title>
+</head>
+<body>
+    <h1 class="header" style="color: white;">RETURN LEFT ITEM HERE</h1>
+    <p class="para" style="color: white;">please fill the field below and <br>return it </p>
+    <div class="return-box">
+   <form action="">
+    <input type="text" name="returnitemid" id="returnitemid" class="returnitemid" placeholder="returnItemID" onkeyup="validateReturnItemId()"> <br>
+    <span id="ret1"></span>
+    <input type="text" name="quantity" id="quantity" class="quantity" placeholder="quantity" onkeyup="validateQuantity()"> <br>
+    <span id="ret2"></span>
+    <input type="date" name="date" id="date" class="date"> <br>
+    <input type="text" name="username" id="username" class="username" placeholder="userName" onkeyup="validateUserName()"> <br>
+    <span id="ret3"></span>
+    <input type="text" name="userid" id="userid" class="userid" placeholder="userID" onkeyup="validateUserId()" > <br>
+    <span id="ret4"></span>
+    <input type="submit" name="submit" id="submit" class="btn" value="returnItem" return onclick="validateForm()"> 
+    <span id="ret5"></span>
+   </form> 
+</div>
+<script defer src="validation/returnitem.js"></script>
+</body>
+</html>

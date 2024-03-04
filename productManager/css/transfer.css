@@ -1,0 +1,116 @@
+body{
+  
+    background-color: #344a72;
+    font-family: 'Roboto',sans-serif;
+}
+.transfer-box{
+    width: 600px;
+    height: 640px;
+    background-color: white;
+    margin-left: 27%;
+    
+}
+.header{
+    text-align: center;
+    color: white;
+    margin-left: 50%;
+}
+.para{
+    text-align: center;
+    color: white;
+}
+
+.remark{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none; 
+}
+.productquantity{
+    margin-left: 240px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.sendername{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 80%;
+    border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+}
+.date{
+    margin-left: 240px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.receiverid{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.receivername{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;  
+}
+.productid{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none; 
+}
+.productname{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none; 
+}
+.btn{
+    width: 80%;
+    margin-left: 30px;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none; 
+    background-color: rgb(105, 94, 31);
+    color: white;
+    font-size: large;
+}
+.btn:hover{
+    background-color: rgb(4, 4, 248);
+    color: rgb(19, 114, 114);
+}
+#tra1,#tra2,#tra3,#tra4,#tra5,#tra6,#tra6,#tra7,#tra8,#tra9{
+    color: rgb(240, 8, 39);
+}

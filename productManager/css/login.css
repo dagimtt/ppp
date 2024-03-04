@@ -1,0 +1,106 @@
+body{
+
+    background-color: #e3e7f0;
+    font-family: 'Roboto',sans-serif;
+}
+.signup-box{
+  width: 400px;
+  height: 680px auto;
+  margin: auto;  
+  background-color: white;
+  border-radius:3px;
+ 
+}
+.login-box{
+  
+  width: 420px;
+  height:360px ;
+  margin: auto;
+  
+  border-radius: 3px;
+  background-color:white ;
+}
+h1{
+  text-align: center;
+  padding: 15px;
+}
+form{
+  width: 300px;
+  margin-left: 20px;
+  
+}
+input #email{
+  margin-bottom: 5px;
+}
+form label{
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+form input{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="submit"]{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: #49c1a2;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+
+}
+.para-2{
+  text-align: center;
+  color: rgb(47, 20, 202);
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a{
+  color: #49c1a2;
+}
+i{
+  margin-left: -20px;
+ 
+  color: #9999;
+}
+.input-group span{
+  color:red;
+ font-size: 14px;
+ 
+
+}
+#submit-error{
+  color: red;
+}
+
+.input-group span i{
+  color: seagreen;
+}
+#spann{
+  color: red;
+}
+#spann i{
+  color: seagreen;
+  margin-left: 360px;
+}
+#spann2{
+  color: red;
+}
+#spann2 i{
+  color: seagreen;
+  margin-left: 360px;
+}
+#spann3{
+  color: red;
+}

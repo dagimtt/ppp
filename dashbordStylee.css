@@ -1,0 +1,30 @@
+.offcanvas-title {
+   
+    color : black;
+    font-size: 30px; /* Set font size */
+    font-family: Arial, sans-serif; /* Set font family */
+
+}
+.navbar-nav {
+    color : white;
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+  
+}
+.dropdown-item {
+    color : white;
+    font-size: 25px; /* Set font size */
+    font-family: Arial, sans-serif; /* Set font family */
+  
+}
+#myChart {
+    margin-top: 200px;
+    margin-left: 20px;
+      float: left;
+}
+#my2Chart {
+    margin-top: 200px;
+    margin-left: 30px;
+      float: left;
+}
+

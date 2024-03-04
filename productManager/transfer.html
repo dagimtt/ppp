@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/transfer.css">
+    <title>TransferProduct</title>
+</head>
+<body>
+    <h1 class="header" style="color: white; margin-left: 40%;">TRANSFER HERE</h1>
+    <p class="para" style="color: white; margin-left: 40%;">please fill the field below and <br>transfer it </p>
+
+    <div class="transfer-box">
+  <form action="">
+    <div>
+    
+     
+        
+        <input type="text" name="sendername" id="sendername" class="sendername" placeholder="SenderName" onkeyup="validateSenderName()"><br>
+        <span id="tra1"></span>
+        <input type="text" name="productid" id="productid" class="productid" placeholder="productid" onkeyup="validateItemId()"><br>
+        <span id="tra2"></span>
+        <input type="text" name="productname" id="productname" class="productname" placeholder="productname" onkeyup="validateItemName()"><br>
+        <span id="tra3"></span>
+        <input type="text" name="productquantity" class="productquantity" id="productquantity" onkeyup="validateQuantity()" placeholder="productquantity"><br>
+        <span id="tra4"></span>
+      
+        <input name="date" class="date" type="date" placeholder="mm/dd/yyy" onkeyup="checkDate()"></br>
+        <span id="tra9"></span>
+        <textarea name="remark" class="remark" id="remark" onkeyup="validateRemark()" placeholder="Remarks"></textarea></br>
+        <span id="tra7"></span>
+        <input type="submit" name="submit" class="btn" id="submit" value="TransferProduct" onclick="return validateForm()">
+        <span id="tra8"></span>
+
+
+    </div>
+  </form>  
+</div>
+<script defer src="validation/transfer.js" ></script>
+</body>
+</html>

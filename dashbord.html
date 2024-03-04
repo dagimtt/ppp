@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <!--external css-->
+    <link rel="stylesheet" href="dashbordStylee.css">
+
+    <!--bootstap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></head>
+<body>
+    <nav class="navbar fixed-top" style="background-color: rgb(170, 205, 233);">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex mt-3" role="search">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search" style="width: 300px;">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <a class="navbar-brand order-2" href="#">
+                <img src="logo.png" alt="Logo" width="auto" height="60">
+            </a>
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: rgb(112, 164, 207); color : white">
+                <div class="offcanvas-header">
+                    <img src="logo.png" alt="Logo" width="auto" height="60">
+                    <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Store</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">DASHBOARD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="boot.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ITEM CATEGORIES
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: rgb(112, 164, 207);">
+                                <li><a class="dropdown-item" href="#">Plastic</a></li>
+                                <li><a class="dropdown-item" href="#">Machine</a></li>
+                                <li><a class="dropdown-item" href="#">Chemicals</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="boot.html">REQUESTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ANNOUNCEMENT</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   
+    <canvas id="myChart" style="width:50%;max-width:600px"></canvas>
+    <canvas id="my2Chart" style="width:20%;max-width:600px" height="auto"></canvas>
+    <script>
+    var xValues = ["0.5 L", "1 L", "2 L", "5 L", "20 L"];
+    var yValues = [55, 49, 44, 24, 40];
+    var barColors = ["red", "green","blue","orange","brown"];
+    
+    new Chart("myChart", {
+      type: "bar",
+      data: {
+        labels: xValues,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues
+        }]
+      },
+      options: {
+        legend: {display: false},
+        title: {
+          display: true,
+          text: "Curent Product Status"
+        }
+      }
+    });
+    </script>
+    
+    
+
+<script>
+    var xValues = ["0.5 L", "1 L", "2 L", "5 L", "20 L"];
+    var yValues = [100, 49, 44, 24, 40];
+    var barColors = ["red", "green","blue","orange","brown"];
+
+new Chart("my2Chart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Curent Product Status"
+    }
+  }
+});
+</script>
+
+</body>
+</html>
+
+    <!--bootsrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

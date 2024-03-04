@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Product</title>
+</head>
+<body>
+    <h1 class="header">Product </h1>
+    <p class="para">please fill the field to <br>register </p>
+   <div class="product-box">
+   
+    <form action="" method="post">
+        <input type="text" name="productid" id="productid" class="productid" placeholder="ProductId" onkeyup="validateProductId()"  >
+        <span id="pro1"></span>
+        
+        <span id="pro2"></span>
+        <select name="producttype"  class="producttype" id="producttype" onkeyup="validateTypeProduct()" >
+            <option >enter types of product</option>
+            <option value="1l">0.5L</option>
+            <option value="1l">1L</option>
+            <option value="2l">2L</option>
+            <option value="10l">10L</option>
+        
+            <option value=" 20l">20l</option>
+            </select>
+            <span id="pro3"></span>
+            <input type="text" name="quantity" id="quantity" class="quantity" placeholder="quantity" onkeyup="quantity()">
+            <span id="quan"></span>
+            <input type="date" name="date" id="dateInput" class="date" onkeyup="checkDate()">
+            <span id="pro8"></span>
+            <input type="submit" name="submit" id="submit" class="btn" value="save" return onclick="validateForm()">
+            <span id="pro4"></span>
+    </form>
+   </div> 
+   <script defer src="validation/product.js"></script>
+</body>
+</html>

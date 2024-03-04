@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-1r7Pd4j5lYX5hS1x3f6z4TuzOz6fjr9ZO8v6H6TtWVrIuXpq1pknjIhYVhJZrX6+R2j8xE4f0+R+MkUqXPh9Vw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="Css/login.css">
+	<script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+	<style>
+		.group #span4{
+			color: red;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="login-box">
+		<h1>Login</h1>
+		<form action="login.php" method="post">
+			<div class="group">
+				<label for="email">Email:</label>
+				<div class="us">
+				  <input type="email" id="email" name="email" onkeyup="validEmail()">
+				 
+				</div>
+				<span id="spann"></span>
+			  </div>
+		<div class="group">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" onkeyup="validPassword()">
+            <span id="spann2"></span>
+		</div>
+			<div class="group">
+			<input type="submit" name="submit"  value="Login"  onclick="return validateForm()" >
+            <span id="spann3"></span>
+		
+		</div>
+		</form>
+	</div>
+    <p class="para-2">Not have an account? <a href="sign _up.html">Sign Up Here</a></p>
+<script defer src="validation/login.js"></script>
+</body>
+</html>
