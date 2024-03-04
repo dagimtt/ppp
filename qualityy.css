@@ -1,0 +1,123 @@
+.offcanvas-title {
+   
+    color : black;
+    font-size: 30px; /* Set font size */
+    font-family: Arial, sans-serif; /* Set font family */
+
+}
+.navbar-nav {
+    color : white;
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+  
+}
+.nav-item{
+    color: black;
+    display: flex;
+}
+.fas{
+    color: black;
+    float: left;
+}
+i{
+    margin-top: 13px;
+    margin-right: 5px;
+}
+.dropdown-item {
+    color : white;
+    font-size: 25px; /* Set font size */
+    font-family: Arial, sans-serif; /* Set font family */
+  
+}
+#myChart {
+    margin-top: 50px;
+    margin-left: 160px;
+      float: left;
+}
+#my2Chart {
+    margin-top: 50px;
+    margin-left: 100px;
+
+      float: left;
+}
+.button-container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.custom-button{
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    width: 100px;
+    margin: 5px;
+}
+
+.buttondiv1{
+    padding: 30px;
+    width: 220px;
+    height: 130px;
+    border: 1px solid;
+    transition: transform 0.3s ease;
+}
+.buttondiv1:hover {
+    transform: scale(1.05);
+}
+.buttondiv2{
+    padding: 30px;
+    width: 220px;
+    height: 130px;
+    border: 1px solid;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+.buttondiv2:hover {
+    transform: scale(1.05);
+}
+.buttondiv3{
+    padding: 30px;
+    width: 220px;
+    height: 130px;
+    border: 1px solid;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+.buttondiv3:hover {
+    transform: scale(1.05);
+}
+.buttondiv4{
+    padding: 30px;
+    width: 220px;
+    height: 130px;
+    border: 1px solid;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+.buttondiv4:hover {
+    transform: scale(1.05);
+}
+.dash{
+    position:relative;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(105, 94, 32);
+    margin-left: 220px;
+}
+.custom-table {
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 50px; 
+    border: 1px solid #ced4da; 
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    background-color: #f8f9fa; /* Add background color */
+}
+.custom-form {
+    border: 1px solid #ced4da;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #f8f9fa; 
+    padding: 20px; 
+  }

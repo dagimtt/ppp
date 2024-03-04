@@ -1,0 +1,129 @@
+.offcanvas-title {
+   
+    color : black;
+    font-size: 30px; /* Set font size */
+    font-family: Arial, sans-serif; /* Set font family */
+
+}
+.navbar-nav {
+    color : white;
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+  
+}
+.nav-item{
+    color: black;
+    display: flex;
+}
+.fas{
+    color: black;
+    float: left;
+}
+ .dropdown-link {
+    color : white;
+    font-size: 25px; 
+    font-family: Arial, sans-serif; 
+  
+  }
+  .bi {
+    width: 50px;
+    color: white;
+
+  }
+  .custom-table {
+    margin: 0 auto; 
+    width: 50%; 
+    margin-top: 120px;
+    margin-left: 280px;
+    border: 1px solid #ced4da; 
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    background-color: #f8f9fa; /* Add background color */
+}
+.custom-form {
+    border: 1px solid #ced4da;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #f8f9fa; 
+    padding: 20px; 
+  }
+  
+  .round{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    position:relative;
+    background:red;
+    display:inline-block;
+    padding:0.3rem 0.2rem !important;
+    margin:0.3rem 0.2rem !important;
+    left:16px;
+    top:-45px;
+    z-index: 99 !important;
+  }
+  .round > span {
+    color:white;
+    display:block;
+    text-align:center;
+    font-size:1rem !important;
+    padding:0 !important;
+  }
+  #list{
+   
+    display: none;
+    top: 33px;
+    position: absolute;
+    right: 2%;
+    background:#ffffff;
+z-index:100 !important;
+width: 25vw;
+margin-left: -37px;
+
+padding:0 !important;
+margin:0 auto !important;
+
+    
+  }
+  .message > span {
+    width:100%;
+    display:block;
+    color:red;
+    text-align:justify;
+    margin:0.2rem 0.3rem !important;
+    padding:0.3rem !important;
+    line-height:1rem !important;
+    font-weight:bold;
+    border-bottom:1px solid white;
+    font-size:1.8rem !important;
+
+ }
+
+ .message > .msg {
+    width:90%;
+    margin:0.2rem 0.3rem !important;
+    padding:0.2rem 0.2rem !important;
+    text-align:justify;
+    font-weight:bold;
+    display:block;
+    word-wrap: break-word;
+  
+   
+ }
+ .navbar{
+  height: 90px;
+  width: auto;
+  align-items: center;
+ }
+ .nav-item{
+  color: black;
+  display: flex;
+}
+.fas{
+  color: black;
+  float: left;
+}
+i{
+  margin-top: 13px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
